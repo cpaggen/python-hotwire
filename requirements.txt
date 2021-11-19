@@ -1,0 +1,3 @@
+Faker==9.8.2
+Flask==2.0.2
+Turbo_Flask==0.7.0
