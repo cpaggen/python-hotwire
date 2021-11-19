@@ -9,7 +9,7 @@ This app just generates a random person's name every 3 seconds using Faker in a 
 
 Just satisfy requirements.txt; code tested with Python3 on Chrome
 
-``bash
+```bash
 pip install -r requirements.txt
 ```
 
