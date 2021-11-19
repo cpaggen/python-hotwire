@@ -8,7 +8,7 @@ This app just generates a random person's name every 3 seconds using Faker in a 
 This code can be used by Python programmers as a reference template for Web-app projects that require async update from various threads.
 
 ## Demo
-[Demo TurboFlask](https://raw.githubusercontent.com/cpaggen/python-hotwire/master/demo.gif)
+[!Demo TurboFlask](https://raw.githubusercontent.com/cpaggen/python-hotwire/master/demo.gif)
 
 ## Installation
 
