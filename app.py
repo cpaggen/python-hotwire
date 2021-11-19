@@ -12,7 +12,7 @@ app = Flask(__name__)
 turbo = Turbo(app)
 
 @app.context_processor
-def inject_load():
+def generateName():
     randomName = fake.name()
     return {'randomPerson': randomName}
 
@@ -26,9 +26,9 @@ def page2():
 
 @app.before_first_request
 def before_first_request():
-    threading.Thread(target=update_load).start()
+    threading.Thread(target=updateName).start()
 
-def update_load():
+def updateName():
     with app.app_context():
         while True:
             time.sleep(3)
