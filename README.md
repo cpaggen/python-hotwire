@@ -5,6 +5,10 @@ Turbo-Flask uses the HotWIRE JS (turbo.js) library to update sections/divs using
 No need for tons of front-end JS code on the page - inspect the code and see for yourself.
 This app just generates a random person's name every 3 seconds using Faker in a div.
 
+
+## Demo
+[![Demo TurboFlask](https://raw.githubusercontent.com/cpaggen/python-hotwire/master/demo.gif)]
+
 ## Installation
 
 Just satisfy requirements.txt; code tested with Python3 on Chrome
